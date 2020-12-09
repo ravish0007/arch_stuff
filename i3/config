@@ -2,7 +2,8 @@
 exec --no-startup-id xinput set-prop "DLLC6B2:00 06CB:75BF Touchpad" "libinput Tapping Enabled" 1
 exec --no-startup-id xbacklight -set 50
 
-
+bindsym XF86MonBrightnessUp exec --no-startup-id xbacklight -inc 3
+bindsym XF86MonBrightnessDown exec --no-startup-id xbacklight -dec 3
 # It will not be overwritten, so edit it as you like.
 #
 # Should you change your keyboard layout some time, delete
